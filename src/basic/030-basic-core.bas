@@ -1,0 +1,9 @@
+---
+
+`
+10 INPUT A
+20 INPUT B
+30 PRINT A + B
+`
+
+---
