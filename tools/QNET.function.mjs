@@ -45,4 +45,4 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   console.log(loadFunctionMD());
   console.log("\nFUNCTION object:\n");
   console.log(FUNCTION);
-}
+}   
