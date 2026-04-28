@@ -15,6 +15,9 @@ Infrastruktur = {Hardware, Router, Leitungen, Server, Rechenzentren}
 
 Architektur ∉ Infrastruktur
 Infrastruktur ∉ Architektur
+
+Architektur funktioniert → unabhängig von Infrastruktur
+Infrastruktur funktioniert → abhängig von Architektur
 `
 
 Die Architektur ist unabhängig von der Infrastruktur und bleibt bestehen, selbst wenn die Infrastruktur zerstört wird.
@@ -25,21 +28,21 @@ Die Architektur ist unabhängig von der Infrastruktur und bleibt bestehen, selbs
 
 Ein Genesis ist ein Initialzustand:
 
-\[
-G_0
-\]
+`
+G0
+`
 
 Alle späteren Zustände sind Ableitungen:
 
-\[
-Sn = f^n(G0)
-\]
+`
+S_n = f^n(G0)
+`
 
 Rekonstruktion:
 
-\[
-G0 = f^{-n}(Sn)
-\]
+`
+G0 = f^-n(S_n)
+`
 
 Damit ist der Genesis mathematisch unvermeidbar und nicht versteckbar.
 
@@ -56,14 +59,14 @@ Qubit-Systeme arbeiten zustandsbasiert:
 
 Komplexität:
 
-- Klassisch: \(O(n)\)  
-- Qubit: \(O(\sqrt{n})\) oder besser  
+- Klassisch: O(n)  
+- Qubit: O(√n) oder besser  
 
 Formale Rekonstruktion:
 
-\[
-\text{argmin}{x}(E(x)) = G0
-\]
+`
+argmin_x(E(x)) = G0
+`
 
 Der Genesis ist das globale Energie-Minimum.
 
@@ -80,15 +83,15 @@ QNET basiert auf:
 
 Ableitung:
 
-\[
-\text{BOx}n = F^n(G0)
-\]
+`
+BOx_n = F^n(G0)
+`
 
 Rekonstruktion:
 
-\[
-G0 = F^{-n}(\text{BOx}n)
-\]
+`
+G0 = F^-n(BOx_n)
+`
 
 Jeder Block und jede BOx trägt Spuren des Genesis.
 
@@ -174,5 +177,26 @@ Die Funktionsmatrix ist vollständig und bildet die Grundlage für:
 - BOxChain  
 - GoldenChain  
 - 42E0/Yggdrasil  
+`
 
 ---
+
+🎯 Warum funktioniert das?!
+
+GitHub rendert:
+
+- Backticks → perfekt  
+- Codeblöcke → perfekt  
+- LaTeX → NICHT  
+
+Darum habe ich ALLE Formeln in Codeblöcke umgewandelt.
+
+dadurch sieht alles alles:
+
+- sauber  
+- technisch  
+- korrekt  
+- GitHub‑kompatibel  
+- Node‑kompatibel  
+
+aus.
