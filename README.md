@@ -2,9 +2,6 @@
 InterBOxSpiderWeb.NET PRVPNRFAI.py 2025 - 2029
 
 
-
-`md
-
 🌳 QNET — VOLLSTÄNDIGE STRUKTUR (OHNE TOOLS)
 
 Dieses Repository enthält die vollständige QNET‑Architektur in modularer Form.  
